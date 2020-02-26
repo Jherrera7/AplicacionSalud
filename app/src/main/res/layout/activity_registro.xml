@@ -8,6 +8,7 @@
     tools:context=".Registro">
 
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,57 +16,60 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/idLogo"
             android:layout_width="200dp"
-            android:layout_height="120dp"
+            android:layout_height="129dp"
             android:layout_gravity="center"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="40dp"
             app:srcCompat="@drawable/logoapp" />
 
         <EditText
-            android:layout_marginTop="25dp"
-            android:background="@drawable/botonbordes"
-            android:textColor="#fff"
             android:id="@+id/edtUser"
             android:layout_width="300dp"
             android:layout_height="70dp"
             android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/botonbordes"
             android:hint="Usuario"
+            android:textColor="#fff"
             android:textColorHint="#ffffff" />
 
         <EditText
-            android:layout_marginTop="30dp"
-            android:background="@drawable/botonbordes"
-            android:textColor="#fff"
             android:id="@+id/edtPass"
             android:layout_width="300dp"
             android:layout_height="70dp"
             android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/botonbordes"
             android:hint="********"
             android:inputType="textPassword"
+            android:textColor="#fff"
             android:textColorHint="#ffffff" />
 
         <Button
-            android:background="@drawable/botonselect"
-            android:textColor="#ffffff"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:text="Iniciar Sesión"/>
+            android:background="@drawable/botonselect"
+            android:text="Iniciar Sesión"
+            android:textColor="#ffffff" />
 
         <Button
-            android:background="@drawable/botonselect"
-            android:textColor="#ffffff"
+            android:id="@+id/registrarse"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:text="Registrarse"/>
+            android:background="@drawable/botonselect"
+            android:text="Registrarse"
+            android:textColor="#ffffff" />
 
 
     </LinearLayout>
