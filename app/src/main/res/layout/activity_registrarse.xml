@@ -29,12 +29,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="10dp"
             android:text="Registrarse"
             android:textColor="#FFF"
             android:textSize="30sp" />
         <EditText
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="30dp"
             android:id="@+id/Nombre"
             android:background="@drawable/botonbordes"
             android:layout_gravity="center"
@@ -71,7 +71,7 @@
             android:textColorHint="#fff"/>
         <Button
             android:layout_marginTop="30dp"
-            android:id="@+id/login"
+            android:id="@+id/cargar"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
