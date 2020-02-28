@@ -77,6 +77,13 @@
             android:background="@drawable/botonselect"
             android:text="Registrarse"
             android:textColor="#ffffff" />
+        <ImageView
+            android:layout_marginTop="1dp"
+            android:id="@+id/Salir"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/salir" />
 
 
     </LinearLayout>

@@ -98,6 +98,14 @@
             android:text="Si Acepto"
             android:textColor="#ffffff" />
 
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/Salir"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/salir" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
